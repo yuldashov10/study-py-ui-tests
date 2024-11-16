@@ -21,7 +21,7 @@
 1. Клонировать проект
 
 ```
-git clone github.com/username/study-py-ui-tests.git
+git clone https://github.com/Denjkee36rus/study-py-ui-tests.git
 ```
 
 2. Создать виртуальное окружение
