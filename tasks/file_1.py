@@ -1,0 +1,16 @@
+import os
+import time
+
+import allure
+from assertpy import assert_that
+from dotenv import load_dotenv
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
+url = 'https://www.chitai-gorod.ru/'
+with webdriver.Chrome() as browser:
+    browser.get(url)
+    time.sleep(3)
